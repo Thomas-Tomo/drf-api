@@ -61,7 +61,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'drf-api-thomas.herokuapp.com',
+    'drf-api-thomas-48cbbb8b8839.herokuapp.com',
     'localhost',
     '8000-thomastomo-drfapi-gjbxnyd08k0.ws-eu104.gitpod.io'
 ]
