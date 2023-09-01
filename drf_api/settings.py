@@ -63,6 +63,7 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [
     'drf-api-thomas.herokuapp.com',
     'localhost',
+    '8000-thomastomo-drfapi-gjbxnyd08k0.ws-eu104.gitpod.io'
 ]
 
 if 'CLIENT_ORIGIN' in os.environ:
