@@ -73,6 +73,11 @@ if 'CLIENT_ORIGIN_DEV' in os.environ:
         rf"{extracted_url}(eu|us)\d+\w\.gitpod\.io$",
     ]
 
+CORS_ALLOWED_ORIGINS = [
+    "https://moments-thomas-0a5a0566b8ac.herokuapp.com",
+    # Add any other allowed origins here
+]
+
 CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
