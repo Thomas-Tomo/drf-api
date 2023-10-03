@@ -63,7 +63,7 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOST'),
     'localhost',
-    '8000-thomastomo-drfapi-gjbxnyd08k0.ws-eu104.gitpod.io',
+    '8000-thomastomo-drfapi-gjbxnyd08k0.ws-eu105.gitpod.io',
     'https://drf-api-thomas-48cbbb8b8839.herokuapp.com/'
 ]
 
